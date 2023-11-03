@@ -29,7 +29,7 @@ body{
 }
     .content{
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
     }
     .logo{
@@ -139,7 +139,7 @@ color: gold;
 .title{
     font-size: 80px;
     font-weight: 700;
-    color:rgb(212, 219, 197) ; 
+    color:white ; 
     text-shadow: #FC0 1px 0 5px;
 }
 .info_title{
@@ -148,6 +148,8 @@ color: gold;
   text-align: center;
   transform: translateX(-1500px)rotateX(900deg);
   transition: .5s;
+  color: rgb(28, 170, 6);
+  text-shadow: rgb(219, 213, 143) 1px 0 5px;
 
 }
 .info p{
@@ -190,7 +192,7 @@ color: gold;
   margin-top: 30px;
 }
 .flights_left{
-  background-image: url(../images/two2.jpg);
+  background-image: url(../images/n6.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -257,11 +259,15 @@ color: gold;
 .salad_a:hover{
     color: darkorange;
 }
-.header_info h2{
+.header_info h2,.fruit_salads h2{
 margin-top: 15px;
 color: blueviolet;
 }
-.header_info h6{
+.fruit_salads{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.header_info h6,.fruit_salads h6{
   font-size: 20px;
   font-weight: 600;
   color: darkorchid;
@@ -285,4 +291,19 @@ color: blueviolet;
 .cards.active{
 flex: 5;
 }
-
+.footer{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  height: 100px;
+  background-color: rgba(0,0,0,.80);
+  color: white;
+}
+.footer_icons{
+  margin-left: 30px;
+}
+.icons{
+  margin-left: 15px;
+  color: white;
+  font-size: 20px;
+}
